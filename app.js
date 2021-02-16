@@ -6,5 +6,5 @@ app.get("/", (request, response) => {
 	response.end("Hello world again !");
 });
 
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 app.listen(PORT);
